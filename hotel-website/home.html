@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .heading_container {
+            background-color: rgba(0, 0, 0, 0.5);
+            height: 8vh;
+            display: flex;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            align-items: center;
+        }
+        .heading_container a {
+            color: white;
+            font-size: 2rem;
+            margin-left: 2rem;
+            cursor: pointer;
+        }
+        
+        .heading_container .buttons {
+            display: flex;
+            width: 40%;
+            height: 100%;
+            background-color: transparent;
+            color: white;
+            border: none;
+            margin-left: 35%;
+            cursor: pointer;
+        }
+        .heading_container button {
+            font-weight: 500    ;
+            width: 6rem;
+            background-color: transparent;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 1rem;
+            transition: background-color 1s /* Thêm dòng này */
+            
+        }
+        .heading_container button:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+            
+        }
+        .main {
+            width: 100%;
+            height: 50%;
+            overflow: hidden;
+        }
+        .part1 img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            object-position: top;
+            
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class ="heading_container">
+        <a>Hotel Three Knights</a>
+        <div class = "buttons" id="buttons">
+            <button>HOME</button>
+            <button>ROOMS</button>
+            <button>SERVICES</button>
+            <button>CONTACT</button>
+            <button>DISCOUNT</button>
+        </div>
+    </div>
+    <div class = "main part1">
+        <img src="https://statics.vinpearl.com/khach-san-phu-quoc-%205%20sao-%2005.jpg" alt="room1" class="room1">
+    </div>
+</body>
+</html>

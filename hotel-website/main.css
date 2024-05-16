@@ -1,0 +1,115 @@
+html, body{
+    position: relative;
+    margin : 0;
+    padding : 0;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.header{
+    position : absolute;
+    width : 100%;   
+    height : 100vh;
+    background-image : url("https://images2.thanhnien.vn/528068263637045248/2023/12/8/cap-treo-hon-thom-17020470606531502051900.jpg");
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+.layer{
+    position: absolute;
+    width: 100%;
+    height:  100vh;
+    background-color: rgba(34,44,40,0.7);
+}
+.box{
+    position: absolute;
+    width: 480px;
+    height: 567px;
+    background-color: none;
+
+    top: 17vh;
+    left: 37.5%;
+    border-radius: 10px;
+    
+    
+}
+.box h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 0px;
+    color: rgba(255,255,255,0.8)
+}
+.box input{
+    width: 300px;
+    height: 45px;
+    border-radius: 3px;
+    margin-left: 90px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color:rgba(0,0,0,0.8);
+    background-color: rgba(255,255,255,0.6);
+    border: none;
+}
+.box .loginButton {
+    display: inline-block;
+    width: 312px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px ;
+    background-color: rgba(255,255,255);
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    
+    
+    
+}
+.loginButton:hover {
+    background-color: rgba(255,255,255,0.0);
+    border: solid ;
+    border-color: rgba(255,255,255);
+    color: rgba(255,255,255);
+    cursor: pointer;
+}
+.box a{
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    margin-left: 270px;
+
+    color: rgba(255,255,255,0.8);
+}
+#togglePasswordButton {
+    position: absolute;
+    right: 80px; /* adjust as needed */
+    top: 236px; /* center vertically */
+    transform: translateY(-50%); /* adjust for button height */
+    border: none;
+    background: none;
+    cursor: pointer;
+        }
+.box h2{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    margin-left:20px;
+    
+    
+    letter-spacing: 0px;
+    color: rgba(255,255,255,0.8)
+}
+
+
